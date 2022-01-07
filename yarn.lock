@@ -903,6 +903,11 @@
   "resolved" "https://registry.npmjs.org/@types/faker/-/faker-5.5.9.tgz"
   "version" "5.5.9"
 
+"@types/google.maps@^3.47.2":
+  "integrity" "sha512-mFmt428CY4UN49U8KH5J4RfcdkeRu6SZyPIXxU1MA0pnHb4pqn/c/whawTodB3pkKWe8F9fXfUlpBFsk9HucXw=="
+  "resolved" "https://registry.npmjs.org/@types/google.maps/-/google.maps-3.47.2.tgz"
+  "version" "3.47.2"
+
 "@types/http-proxy@^1.17.5":
   "integrity" "sha512-5kPLG5BKpWYkw/LVOGWpiq3nEVqxiN32rTgI53Sk12/xHFQ2rG3ehI9IO+O3W2QoKeyB92dJkoka8SUm6BX1pA=="
   "resolved" "https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.8.tgz"
@@ -1139,7 +1144,12 @@
   "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
   "version" "4.12.0"
 
-"bn.js@^5.0.0", "bn.js@^5.1.1":
+"bn.js@^5.0.0":
+  "integrity" "sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw=="
+  "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-5.2.0.tgz"
+  "version" "5.2.0"
+
+"bn.js@^5.1.1":
   "integrity" "sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw=="
   "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-5.2.0.tgz"
   "version" "5.2.0"
@@ -1434,7 +1444,12 @@
   "resolved" "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   "version" "2.20.3"
 
-"commander@^7.0.0", "commander@^7.2.0":
+"commander@^7.0.0":
+  "integrity" "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
+  "version" "7.2.0"
+
+"commander@^7.2.0":
   "integrity" "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
   "version" "7.2.0"
@@ -3697,7 +3712,12 @@
     "randombytes" "^2.0.1"
     "safe-buffer" "^5.1.2"
 
-"punycode@^1.3.2", "punycode@^1.4.1":
+"punycode@^1.3.2":
+  "integrity" "sha1-wNWmOycYgArY4esPpSachN1BhF4="
+  "resolved" "https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz"
+  "version" "1.4.1"
+
+"punycode@^1.4.1":
   "integrity" "sha1-wNWmOycYgArY4esPpSachN1BhF4="
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz"
   "version" "1.4.1"
@@ -4030,7 +4050,12 @@
     "buffer-from" "^1.0.0"
     "source-map" "^0.6.0"
 
-"source-map@^0.5.0", "source-map@^0.5.6":
+"source-map@^0.5.0":
+  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+  "version" "0.5.7"
+
+"source-map@^0.5.6":
   "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
@@ -4200,7 +4225,14 @@
   dependencies:
     "has-flag" "^3.0.0"
 
-"supports-color@^7.0.0", "supports-color@^7.1.0":
+"supports-color@^7.0.0":
+  "integrity" "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
+  "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
+  "version" "7.2.0"
+  dependencies:
+    "has-flag" "^4.0.0"
+
+"supports-color@^7.1.0":
   "integrity" "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
   "version" "7.2.0"
